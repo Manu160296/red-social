@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lyft</title>
+  <title>Red-social</title>
 	<!--<link rel="icon" href="../assets/images/icon-lyft.png">  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
@@ -12,11 +12,72 @@
   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+<div class="container container-flex">
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">SIGN UP</button>
+	<br>
+  <button class="btn btn-lg btn-warning">SIGN IN</button>
+</div>
 
 
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">SIGN UP</h4>
+      </div>
+      <div class="modal-body">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="name-form-js" placeholder="Name">
+							</div>
+					</div>
+					<div class="form-group">
+						<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+						  <div class="col-sm-10">
+								<input type="email" class="form-control" id="inputEmail-js" placeholder="Email">
+							</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" id="inputPassword-js" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+							  <label>
+									<input type="checkbox"> Remember me
+								</label>
+							</div>
+						</div>
+					</div>
+						<!--	<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-default">Sign in</button>
+								</div>
+							</div> -->
+				</form>
+        
+      </div>
+      <div class="modal-footer">
+       <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button> -->
+				<button type="submit" class="btn btn-info signIn-js">Sign in</button>
+      </div>
+    </div>
+  </div>
+</div>
     
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/functions.js"></script>
 	<script src="../js/home.js"></script>
 </body>
 </html>
