@@ -1,0 +1,32 @@
+[debug] [2018-01-08T17:58:42.012Z] ----------------------------------------------------------------------
+[debug] [2018-01-08T17:58:42.014Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fmanu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-08T17:58:42.014Z] CLI Version:   3.16.0
+[debug] [2018-01-08T17:58:42.014Z] Platform:      win32
+[debug] [2018-01-08T17:58:42.014Z] Node Version:  v9.3.0
+[debug] [2018-01-08T17:58:42.018Z] Time:          Mon Jan 08 2018 12:58:42 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-01-08T17:58:42.018Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-08T17:58:42.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-08T17:58:42.058Z] > authorizing via signed-in user
+[debug] [2018-01-08T17:58:42.062Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/red-social-intento-final  
+  
+ Mon Jan 08 2018 12:58:42 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-01-08T17:58:42.931Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T17:58:42.931Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/red-social-intento-final/tokens  
+  
+ Mon Jan 08 2018 12:58:42 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-01-08T17:58:43.564Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\fmanu\Documents\projects\producto-final-sprint3\red-social'...
+[info] 
+[debug] [2018-01-08T17:58:43.579Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/red-social-intento-final  
+  
+ Mon Jan 08 2018 12:58:43 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-01-08T17:58:44.133Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-08T17:58:44.133Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/549545065770/clients/_:getWebAppConfig  
+  
+ Mon Jan 08 2018 12:58:44 GMT-0500 (SA Pacific Standard Time)
+[debug] [2018-01-08T17:58:44.797Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
